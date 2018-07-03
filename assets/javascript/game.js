@@ -63,7 +63,7 @@ $(document).ready(function () {
     //another function
     function check() {
         if (counter > targetNum) {
-            alert("You LOST!");
+            alert("SORRY, YOU LOST!");
 
             console.log("YOU LOST");
             losses++;
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
         }
         else if (counter == targetNum) {
-            alert("You WIN!");
+            alert("CONGRATS, YOU WON!");
             console.log("YOU WIN!");
             wins++;
             $("#wins").html(wins);
