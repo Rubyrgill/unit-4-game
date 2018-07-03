@@ -1,6 +1,6 @@
 # CRYSTALS COLLECTOR GAME 
 
-## LINK TO LIVE GAME: 
+## LINK TO LIVE GAME: https://rubyrgill.github.io/unit-4-game/
 
 ### Game Objective: 
 ```
