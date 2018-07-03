@@ -4,44 +4,57 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>JEWEL GAME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-
-
 </head>
 
 <body>
-
+    <!--Game Container to hold-->
     <div id="container">
 
+        <!--Heading-->
         <h1>JEWEL GAME</h1>
-
+        <!--instructions for game container-->
         <div id="instruction-box">
             <p>Instructions</p>
         </div>
 
-        <div>
+
+
+        <!--///////////////////////////////////////////////////////////-->
+
+        <!--JS/GAME-->
+        <!--Target Number-->
+        <div class="box">
             <h3> Target Number:
                 <span id="targetnum"></span>
             </h3>
         </div>
 
-        <div id="jewel">
-            <img id="red-gem" src="./assets/images/redgem.jpg">
-            <img id="blue-gem" src="./assets/images/bluegem.jpg">
-            <img id="diamond-gem" src="./assets/images/diamondgem.jpg">
-            <img id="purple-gem" src="./assets/images/purplegem.jpg">
+
+        <!--player score-->
+        <div class="box">
+            <h3> Your Number:
+                <span id="yournum"></span>
+            </h3>
         </div>
+        <!--Click images:-->
+        <div class="box">
 
-
-        <div>
+            <img id="red" src="assets/images/redgem.jpg">
+            <img id="blue" src="assets/images/bluegem.jpg">
+            <img id="green" src="assets/images/greengem.jpg">
+            <img id="diamond" src="assets/images/diamondgem.jpg">
+        </div>
+        <!--Win/lose-->
+        <div class="box">
             <h1>Wins:
                 <span id="wins"></span>
             </h1>
         </div>
-        <div>
+        <div class="box">
             <h1>Losses:
                 <span id="loss"></span>
             </h1>
